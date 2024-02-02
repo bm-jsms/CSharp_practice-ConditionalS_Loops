@@ -97,3 +97,18 @@ do
     Console.WriteLine(i);
     i++;
 } while (i < 20);
+
+
+
+Console.WriteLine("\n" + new string('-', 40) + "\n");
+
+
+
+// Conditional for
+
+string msg = "This is a message";
+
+for (int j = 0; j < msg.Length; j++)
+{
+    Console.WriteLine(msg[j]);
+}
