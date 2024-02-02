@@ -59,3 +59,18 @@ switch (country)
 }
 
 Console.WriteLine(legalAge);
+
+
+
+Console.WriteLine("\n" + new string('-', 40) + "\n");
+
+
+
+// Conditional ternary
+
+int a = 10;
+int b = 20;
+
+string result = a > b ? "a is greater than b" : "b is greater than a";
+
+Console.WriteLine(result);
