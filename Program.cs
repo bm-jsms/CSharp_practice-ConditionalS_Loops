@@ -20,3 +20,42 @@ else
 }
 
 Console.WriteLine(message);
+
+
+
+Console.WriteLine("\n" + new string('-', 40) + "\n");
+
+
+
+// Conditional switch
+
+var age = 1.1;
+var country = "";
+var legalAge = "";
+
+
+Console.WriteLine("Enter your country: ");
+country = Console.ReadLine();
+
+Console.WriteLine("Enter your age: ");
+age = Convert.ToInt32(Console.ReadLine());
+
+switch (country)
+{
+
+    case "USA":
+        legalAge = age >= 21 ? "You are of legal age!" : "You are not of legal age!";
+        break;
+    case "UK":
+        legalAge = age >= 18 ? "You are of legal age!" : "You are not of legal age!";
+        break;
+    case "Canada":
+        legalAge = age >= 19 ? "You are of legal age!" : "You are not of legal age!";
+        break;
+    default:
+        legalAge = "Country not found!";
+        break;
+
+}
+
+Console.WriteLine(legalAge);
