@@ -74,3 +74,26 @@ int b = 20;
 string result = a > b ? "a is greater than b" : "b is greater than a";
 
 Console.WriteLine(result);
+
+
+
+Console.WriteLine("\n" + new string('-', 40) + "\n");
+
+
+// Conditional while and do while
+
+int i = 0;
+
+while (i < 10)
+{
+    Console.WriteLine(i);
+    i++;
+}
+
+Console.WriteLine("\n" + new string('-', 40) + "\n");
+
+do
+{
+    Console.WriteLine(i);
+    i++;
+} while (i < 20);
